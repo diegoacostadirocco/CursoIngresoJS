@@ -2,8 +2,9 @@
 Debemos lograr tomar un dato por 'PROMPT' 
 y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
-function mostrar(txtIdNombre) {
-	let value = txtIdNombre.value;
-	alert(value);
+function mostrar() {
+	let value = prompt('Insert Name');
+	document.getElementById('txtIdNombre').value = value
+
 }
 
