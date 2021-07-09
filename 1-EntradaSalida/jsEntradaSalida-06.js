@@ -6,6 +6,6 @@ function sumar() {
 	let num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	let num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 	let sum = num1 + num2;
-	alert(sum);
+	alert(`la suma es ${sum}`);
 }
 
