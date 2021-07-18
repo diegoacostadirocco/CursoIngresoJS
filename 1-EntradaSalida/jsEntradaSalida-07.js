@@ -15,17 +15,18 @@ function restar() {
 	let num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	let num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 	let rest = num1 - num2;
-	alert(`la suma es igual a ${rest}`);
+	alert(`la resta es igual a ${rest}`);
 }
 function multiplicar() {
 	let num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	let num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 	let multiply = num1 * num2;
-	alert(`la suma es igual a ${multiply}`);
+	alert(`la multiplicacion es igual a ${multiply}`);
 }
 function dividir() {
 	let num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	let num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 	let divide = num1 / num2;
-	alert(`la suma es igual a ${divide}`);
+	let resto = num1 % num2;
+	alert(`la division es igual a ${divide} y el resto es de ${resto}`);
 }
