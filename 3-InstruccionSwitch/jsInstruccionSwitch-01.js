@@ -1,6 +1,6 @@
 function mostrar() {
 	//tomo el mes
-	var mesDelAño = txtIdMes.value;
+	var mesDelAño = document.getElementById('txtIdMes').value;
 
 	switch (mesDelAño) {
 		case 'Enero':
@@ -15,14 +15,7 @@ function mostrar() {
 		case 'Diciembre':
 			alert("Felices fiesta!!!.");
 			break;
-		case "Febrero":
-		case 'Abril':
-		case 'Mayo':
-		case 'Junio':
-		case 'Agosto':
-		case 'Septiembre':
-		case 'Octubre':
-		case 'Noviembre':
+		default:
 			break;
 	}
 

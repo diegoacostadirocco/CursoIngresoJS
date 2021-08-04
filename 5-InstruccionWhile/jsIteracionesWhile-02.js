@@ -5,7 +5,7 @@ function mostrar() {
 	i = 11;
 	while (i > 1) {
 
-		i--;
+		i = i - 1;
 		alert(i);
 	}
 
